@@ -583,19 +583,19 @@ body {
 /* Estilos para a seção de chefs */
 .chefs {
     background-color: #f9f9f9; 
-    padding: 60px 20px; 
+    padding: 20px 20px; 
     position: relative; 
 }
 
 .chefs__container {
-    max-width: 300px; 
+    max-width: 3000px; 
     margin: 0 auto; 
-    padding: 0 20px; 
+    padding: 0 10px; 
 }
 .chefs h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #e74c3c;
     animation: pulseAnimation 2s infinite; 
@@ -629,21 +629,21 @@ body {
 .chef {
     background-color: #fff; 
     border: 1px solid #ddd; 
-    border-radius: 10px; 
-    padding: 20px; 
+    border-radius: 3px; 
+    padding: 5px; 
     text-align: center; 
     width: 100%;  
-    max-width: 200px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 150px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    margin: 10px; 
+    margin: 5px; 
     overflow: hidden; 
 }
 
 .chef__photo {
-    width: 100%; 
+    width: 150px; 
     height: auto;  
-    margin-bottom: 15px; 
+    margin-bottom: 5px; 
     transition: transform 0.3s ease; 
 }
 
@@ -662,23 +662,5 @@ body {
 .chef__description {
     font-size: 1rem; 
     color: #555; 
-    margin-bottom: 15px; 
-}
-
-.chef__social-icons {
-    margin-top: 15px;
-}
-
-.chef__social-icon {
-    display: inline-block; 
-    color: #e74c3c; 
-    font-size: 1.5rem; 
-    margin: 0 10px; 
-    transition: transform 0.3s ease, color 0.3s ease; 
-}
-
-/* Efeito hover nos ícones das redes sociais dos chefs */
-.chef__social-icon:hover {
-    transform: scale(1.2); 
-    color: #c0392b; 
+    margin-bottom: 10px; 
 }
