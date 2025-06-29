@@ -135,7 +135,7 @@ body {
         left: 0;
         width: 100%;
         background-color: var(--cor-cabecalho);
-        padding: 20px;
+        padding: 10px;
         z-index: 2000; 
     }
 
@@ -531,7 +531,6 @@ body {
 
 /*Neveação do catalogo*/
 .catalogo-nav {
-    background-color: #fd9ef8; /*arrumar*/
     flex: 2;
     display: flex;
     justify-content: center;
@@ -580,19 +579,19 @@ body {
 }
 
 
-/* Estilos para a seção de chefs */
-.chefs {
+/* Estilos para a seção de items */
+.items {
     background-color: #f9f9f9; 
     padding: 20px 20px; 
     position: relative; 
 }
 
-.chefs__container {
+.items__container {
     max-width: 3000px; 
     margin: 0 auto; 
     padding: 0 10px; 
 }
-.chefs h2 {
+.items h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -619,14 +618,14 @@ body {
 
 
 
-.chefs__list {
+.items__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
     gap: 20px; 
 }
 
-.chef {
+.item {
     background-color: #fff; 
     border: 1px solid #ddd; 
     border-radius: 3px; 
@@ -640,27 +639,40 @@ body {
     overflow: hidden; 
 }
 
-.chef__photo {
+.item__photo {
     width: 150px; 
     height: auto;  
     margin-bottom: 5px; 
     transition: transform 0.3s ease; 
 }
 
-/* Efeito de zoom e rotação nas imagens dos chefs */
-.chef:hover .chef__photo {
+/* Efeito de zoom e rotação nas imagens dos items */
+.item:hover .item__photo {
     transform: scale(1.1) rotate(2deg); 
 }
 
-.chef__name {
+.item__name {
     font-size: 1.5rem; 
     margin-bottom: 10px; 
     font-family: 'Montserrat', sans-serif; 
     color: #333; 
 }
 
-.chef__description {
+.item__description {
     font-size: 1rem; 
     color: #555; 
     margin-bottom: 10px; 
+}
+
+.image-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.image-button img {
+  display: block; /* Remove espaço extra abaixo da imagem */
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: 130px;
 }
